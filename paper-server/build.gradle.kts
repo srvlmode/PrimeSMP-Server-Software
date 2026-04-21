@@ -177,7 +177,7 @@ tasks.jar {
             "Specification-Title" to "PrimeSMP",
             "Specification-Version" to project.version,
             "Specification-Vendor" to "PrimeSMP Team",
-            "Brand-Id" to "papermc:paper",
+            "Brand-Id" to "primesmp:core",
             "Brand-Name" to "PrimeSMP",
             "Build-Number" to (build ?: ""),
             "Build-Time" to buildTime.toString(),
