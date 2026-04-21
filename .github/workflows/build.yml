@@ -141,3 +141,12 @@ jobs:
         with:
           name: Event File
           path: ${{ github.event_path }}
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - labeled
