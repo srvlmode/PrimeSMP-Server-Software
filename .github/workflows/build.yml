@@ -5,15 +5,6 @@
 # of the PR relating to this action.
 
 name: Build Paper
-on:
-  push:
-  pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - labeled
-
 jobs:
   build:
     env:
